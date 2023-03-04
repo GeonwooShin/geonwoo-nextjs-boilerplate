@@ -1,12 +1,8 @@
 ## Nextjs + typescript + react-query Boilerplate
 
----
-
 yarn-berry, Nextjs, typescript 기반의 보일러플레이트 입니다.
 
 ## Additional Dependencies
-
----
 
 - axios
 - react-query
@@ -14,8 +10,6 @@ yarn-berry, Nextjs, typescript 기반의 보일러플레이트 입니다.
 - tailwind-styled-components
 
 ## Structure
-
----
 
 ```bash
 📦nextjs-boilerplate
@@ -45,16 +39,18 @@ yarn-berry, Nextjs, typescript 기반의 보일러플레이트 입니다.
 
 ## Install
 
----
-
 ```bash
-git clone https://github.com/GeonwooShin/nextjs-boilerplate.git
+git clone https://github.com/GeonwooShin/geonwoo-nextjs-boilerplate.git
 ```
 
 ## Setup
 
----
+```
+yarn install
 
+yarn dev
 ```
 
-```
+## prettier + lint 적용
+
+`Ctrl` + `Shift` + `P` -> `Typescript: Select typescript version` -> `use WorkSpace version`
