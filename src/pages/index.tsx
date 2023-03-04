@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { Inter } from 'next/font/google';
+import Input from '@/components/common/Input';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -13,6 +14,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>Hello</div>
+      <Input type="text" placeholder="입력" />
     </>
   );
 }
